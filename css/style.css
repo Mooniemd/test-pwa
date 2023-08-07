@@ -1,0 +1,39 @@
+@import url(https://db.onlinewebfonts.com/c/419f9a909ea75fd5eb1d85a9a8a349f0?family=Legothick+V2);
+@font-face {
+    font-family: "Legothick V2";
+    src: url("https://db.onlinewebfonts.com/t/419f9a909ea75fd5eb1d85a9a8a349f0.eot");
+    src: url("https://db.onlinewebfonts.com/t/419f9a909ea75fd5eb1d85a9a8a349f0.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/419f9a909ea75fd5eb1d85a9a8a349f0.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/419f9a909ea75fd5eb1d85a9a8a349f0.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/419f9a909ea75fd5eb1d85a9a8a349f0.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/419f9a909ea75fd5eb1d85a9a8a349f0.svg#Legothick V2")format("svg");
+}
+
+body{
+    font-family: "Legothick V2";
+    background-color: #e3000b;
+    color: white;
+}
+
+html, .fullscreen{
+    display: flex;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.container{
+    margin: auto;
+    border: 5px solid;
+    border-color: black;
+    width: 160px;
+    height: 160px;
+}
+
+.title{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 55px;
+
+}
